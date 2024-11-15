@@ -19,6 +19,18 @@ when finding less and less nutrients.
 
 > Image from [coursehero](https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/)
 
+## Project state
+
+This will change over the course's time.
+
+Parameter                |Value
+-------------------------|-----------------------
+Branching setup          |Trunk-based development
+Merge workflow           |Not applicable
+Testing                  |None
+Continuous integration   |None
+Can be used as a package?|No
+
 ## Team roles
 
 Role              |Name
@@ -29,6 +41,9 @@ Data manager      |.
 Lead developer    |.
 
 ## Usage
+
+> The lead developer and product owner are free to change this,
+> if they both agree on the new usage.
 
 ```python
 from bacsim.simulation import run_experiment
