@@ -47,7 +47,7 @@ Lead developer    |.
 
 ```python
 from bacsim.simulation import run_experiment
-run_experiment("parameter_filename.txt", "results_filename.csv")
+run_experiment("parameters.csv", "results.csv")
 ```
 
 ## Internal links
