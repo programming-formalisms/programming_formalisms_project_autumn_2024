@@ -18,8 +18,5 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-# Install the package from the local code
-./scripts/install_this_package.sh
-
 # Run the code
 python3 main.py
