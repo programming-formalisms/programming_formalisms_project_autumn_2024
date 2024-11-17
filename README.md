@@ -2,6 +2,7 @@
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
+[![Check code style](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_code_style.yaml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_code_style.yaml)
 [![Check links](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml)
 [![Check markdown](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_markdown.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_markdown.yaml)
 [![Check package](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml)
@@ -40,11 +41,21 @@ Testing                  |Yes
 Continuous integration   |Yes
 Can be used as a package?|Yes
 
+## Team experience
+
+Role  |Name
+------|------------------
+Newbie|.
+Junior|.
+Medior|.
+Senior|.
+
 ## Team roles
 
 Role              |Name
 ------------------|-----------------------
 Product owner     |.
+Issue manager     |.
 Software architect|.
 Data manager      |.
 Lead developer    |.
