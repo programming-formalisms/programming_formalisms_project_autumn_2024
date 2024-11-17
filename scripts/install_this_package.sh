@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# Start a console application, by running 'main.py'
+# Install the package from the local code
 #
 # Usage:
 #
-#   ./scripts/run_console.sh
+#   ./scripts/install_this_package.sh
 #
 #
 #
@@ -14,12 +14,8 @@ if [[ "$PWD" =~ scripts$ ]]; then
     echo " "
     echo "Tip: like this"
     echo " "
-    echo "./scripts/run_console.sh"
+    echo "./scripts/install_this_package.sh"
     exit 42
 fi
 
-# Install the package from the local code
-./scripts/install_this_package.sh
-
-# Run the code
-python3 main.py
+python3 -m pip install .
