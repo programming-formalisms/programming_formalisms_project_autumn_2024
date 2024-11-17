@@ -30,3 +30,5 @@ socio
 uppmax
 uu
 www
+Codecov
+codecov
