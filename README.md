@@ -25,9 +25,7 @@ finds more and more nutrients (e.g. dissolved
 sugars), and lasts shorter
 when finding less and less nutrients.
 
-![](run_and_tumble.jpg)
-
-> Image from [coursehero](https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/)
+![Run and tumble, from https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/](run_and_tumble.jpg)
 
 ## Project state
 
@@ -86,8 +84,8 @@ Filename                                  |Descriptions
 
 ## References
 
-- [Wang et al., 2011] Wang, Charles CN, et al. 
-  "Simulation of bacterial chemotaxis by the random run and tumble model." 
-  2011 IEEE 11th International Conference on Bioinformatics and 
+- [Wang et al., 2011] Wang, Charles CN, et al.
+  "Simulation of bacterial chemotaxis by the random run and tumble model."
+  2011 IEEE 11th International Conference on Bioinformatics and
   Bioengineering. IEEE, 2011.
 
