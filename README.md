@@ -1,10 +1,14 @@
 # programming_formalisms_project_autumn_2024
 
+<!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
+
 [![Check links](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml)
 [![Check package](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml)
 [![Check spelling](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml)
 [![Measure Codecov](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml)
 [![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024/graph/badge.svg?token=KbSwhVmhn6)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024)
+
+<!-- markdownlint-enable MD013 -->
 
 Learners' project of the Programming Formalisms course of autumn 2024.
 
@@ -82,5 +86,8 @@ Filename                                  |Descriptions
 
 ## References
 
-- [Wang et al., 2011] Wang, Charles CN, et al. "Simulation of bacterial chemotaxis by the random run and tumble model." 2011 IEEE 11th International Conference on Bioinformatics and Bioengineering. IEEE, 2011.
+- [Wang et al., 2011] Wang, Charles CN, et al. 
+  "Simulation of bacterial chemotaxis by the random run and tumble model." 
+  2011 IEEE 11th International Conference on Bioinformatics and 
+  Bioengineering. IEEE, 2011.
 
