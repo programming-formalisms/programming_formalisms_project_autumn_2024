@@ -1,0 +1,14 @@
+# Check if all code follows a recommended coding standard
+# From https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#using-ruff-to-lint-code
+name: Check code style
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint_code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: chartboost/ruff-action@v1

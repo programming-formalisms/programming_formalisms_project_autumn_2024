@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bacsim"]
+
+[project]
+name = "bacsim"
+version = "0.1"
+authors = [
+  { name="Richèl Bilderbeek", email="rjcbilderbeek@gmail.com" },
+]
+description = "The UPPMAX Programming Formalisms course summer 2024 project"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/programming-formalisms/programming_formalisms_project_summer_2024"
+"Bug Tracker" = "https://github.com/programming-formalisms/programming_formalisms_project_summer_2024/issues"
+
+[tool.ruff]
+    lint.select = ["ALL"]
+    lint.ignore = ["ANN", "PT", "PTH", "D211", "D213", "S101", "B006"]
+
