@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  lint_code:
+  check_code_style:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
