@@ -11,7 +11,7 @@ version = "0.1"
 authors = [
   { name="Richèl Bilderbeek", email="rjcbilderbeek@gmail.com" },
 ]
-description = "The UPPMAX Programming Formalisms course summer 2024 project"
+description = "The Programming Formalisms course learners project"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -22,8 +22,8 @@ classifiers = [
 
 
 [project.urls]
-"Homepage" = "https://github.com/programming-formalisms/programming_formalisms_project_summer_2024"
-"Bug Tracker" = "https://github.com/programming-formalisms/programming_formalisms_project_summer_2024/issues"
+"Homepage" = "https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024"
+"Bug Tracker" = "https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/issues"
 
 [tool.ruff]
     lint.select = ["ALL"]
