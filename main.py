@@ -10,7 +10,7 @@ import sys
 
 Tip: run './scripts/install_this_package.sh'
 """
-from bacsim.simulation import (
+from bacsim.experiment import (
   run_experiment,
 )
 
