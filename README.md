@@ -1,5 +1,7 @@
 # programming_formalisms_project_autumn_2024
 
+[![Check links](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml)
+[![Check package](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml)
 [![Check spelling](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml)
 
 

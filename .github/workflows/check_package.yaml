@@ -13,13 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: hynek/build-and-inspect-python-package@v1
-
       - name: Setup Python
         uses: actions/setup-python@master
 
       - name: Install package requirements
         run: pip install -r requirements.txt
 
+      - name: Install this local package
+        run: python3 -m pip install .
+
       - name: Run console application
         run: ./scripts/run_console.sh
+
+      # No idea where this is good for ...?
+      - uses: hynek/build-and-inspect-python-package@v1
