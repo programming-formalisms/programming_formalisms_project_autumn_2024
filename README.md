@@ -1,5 +1,8 @@
 # programming_formalisms_project_autumn_2024
 
+[![Check spelling](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml)
+
+
 Learners' project of the Programming Formalisms course of autumn 2024.
 
 ## Goal
