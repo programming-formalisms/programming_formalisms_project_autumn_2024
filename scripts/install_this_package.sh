@@ -19,4 +19,3 @@ if [[ "$PWD" =~ scripts$ ]]; then
 fi
 
 python3 -m pip install . --break-system-packages
-
