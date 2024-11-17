@@ -58,9 +58,10 @@ run_experiment("parameters.csv", "results.csv")
 
 ## Internal links
 
- * [design](design/README.md): design documents
- * [learners](learners/README.md): place to keep notes and do exercises on an individual basis
-
+- [design](design/README.md): design documents
+- [src/learners](src/learners/README.md): place to put code
+- [learners](learners/README.md): place to put non-code
+ 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Filename                                  |Descriptions
