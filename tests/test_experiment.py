@@ -7,10 +7,6 @@ class TestExperiment(unittest.TestCase):
 
     """Class to test the code in src.bacsim.experiment."""
 
-    def test_tests_can_be_found(self):
-        """This test should show up in the 'Testing' tab."""
-        self.assertTrue(1 + 1 == 2)
-
     def test_run_experiment_exists(self):
         """The function 'run_experiment' exists."""
         run_experiment("parameters.csv", "results.csv")
