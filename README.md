@@ -62,6 +62,8 @@ run_experiment("parameters.csv", "results.csv")
 - [src/learners](src/learners/README.md): place to put code
 - [learners](learners/README.md): place to put non-code
 
+## Continuous integration scripts
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Filename                                  |Descriptions
