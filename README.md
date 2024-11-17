@@ -12,7 +12,7 @@ Learners' project of the Programming Formalisms course of autumn 2024.
 
 To simulate bacterial movement in 2D space.
 
-One way to model bacterial movement is 
+One way to model bacterial movement is
 the run and tumble model,
 where 'run' is going straight in a direction,
 and 'tumble' is picking a random direction.
@@ -61,7 +61,7 @@ run_experiment("parameters.csv", "results.csv")
 - [design](design/README.md): design documents
 - [src/learners](src/learners/README.md): place to put code
 - [learners](learners/README.md): place to put non-code
- 
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Filename                                  |Descriptions
@@ -76,9 +76,9 @@ Filename                                  |Descriptions
 
 ## External links
 
- * [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
+- [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
 
 ## References
 
- * [Wang et al., 2011] Wang, Charles CN, et al. "Simulation of bacterial chemotaxis by the random run and tumble model." 2011 IEEE 11th International Conference on Bioinformatics and Bioengineering. IEEE, 2011.
+- [Wang et al., 2011] Wang, Charles CN, et al. "Simulation of bacterial chemotaxis by the random run and tumble model." 2011 IEEE 11th International Conference on Bioinformatics and Bioengineering. IEEE, 2011.
 
