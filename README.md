@@ -33,9 +33,9 @@ Parameter                |Value
 -------------------------|-----------------------
 Branching setup          |Trunk-based development
 Merge workflow           |Not applicable
-Testing                  |None
-Continuous integration   |None
-Can be used as a package?|No
+Testing                  |Yes
+Continuous integration   |Yes
+Can be used as a package?|Yes
 
 ## Team roles
 
