@@ -18,5 +18,5 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-python3 -m pip install .
+python3 -m pip install . --break-system-packages
 
