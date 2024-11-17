@@ -4,7 +4,7 @@
 [![Check package](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml)
 [![Check spelling](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml)
 [![Measure Codecov](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml)
-[![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024/graph/badge.svg?token=wt5H4NzAZv)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024)
+[![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_summer_2024/graph/badge.svg?token=KbSwhVmhn6)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_summer_2024)
 
 Learners' project of the Programming Formalisms course of autumn 2024.
 
