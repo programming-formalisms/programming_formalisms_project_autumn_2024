@@ -43,3 +43,4 @@ txt
 wordlist
 yml
 src
+coursehero
