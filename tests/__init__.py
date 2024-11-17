@@ -1,1 +1,4 @@
-"""Tests of the 'bacsim' package."""
+"""
+Tests of the 'bacsim' package.
+"""
+
