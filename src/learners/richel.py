@@ -1,5 +1,10 @@
-"""Richel's code."""
+def is_zero():
+    """
+    Determines if input is zero.
+    
+    Will return True if the input is an integer with value zero.
+    Will return False if the input is an integer with a non-zero.
+    Will raise an exception if the input type is not an integer
+    """
 
-def get_name():
-    """Get Richel's name, spelled correctly."""
-    return "Richèl"
+assert is_zero.__doc__
