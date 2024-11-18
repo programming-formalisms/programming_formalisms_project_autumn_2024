@@ -16,8 +16,8 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@master
 
-      - name: Install package requirements
-        run: pip install -r requirements.txt
+      #- name: Install package requirements
+      #  run: pip install -r requirements.txt
 
       - name: Install this local package
         run: python3 -m pip install .
