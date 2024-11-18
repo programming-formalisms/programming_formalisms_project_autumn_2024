@@ -7,3 +7,6 @@
 |R5              | Bacteria tumble         |Bacteria moves in random direction. Randomly changes direction. | Check the position output and verify that it's random.|
 |R6              | Bacteria must sense nutrients | Bacteria continue running along nutrient gradient.|Compare different layouts of nutrients
 |R7              | End condition | Programm stops in organized manner and generates output. | Verify the output. Check that everything is cleaned up.
+|R8              | Optional: Visualization | Generate a movie of the simulation. | Verify that the movie matches the simulation.
+|R9              | Units                   | Allow the user to pick units | Check that units are correctly converted. 
+|R10             | Concentration constraints | Warn the user of too high concentration values. | Check that warnings are raised.
