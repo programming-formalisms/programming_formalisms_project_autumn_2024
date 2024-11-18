@@ -13,3 +13,5 @@ from bacsim.experiment import (
 
 if __name__ == "__main__":
     run_experiment("parameters.csv", "results.csv")
+
+# test
