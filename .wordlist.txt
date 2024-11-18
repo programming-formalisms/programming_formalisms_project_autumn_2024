@@ -42,3 +42,6 @@ mlc
 txt
 wordlist
 yml
+src
+coursehero
+Medior

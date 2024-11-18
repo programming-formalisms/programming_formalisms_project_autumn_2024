@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  run:
+  measure_code_coverage:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +25,7 @@ jobs:
       uses: codecov/codecov-action@v4.0.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        slug: programming-formalisms/programming_formalisms_project_summer_2024
+        slug: programming-formalisms/programming_formalisms_project_autumn_2024
 
 
 

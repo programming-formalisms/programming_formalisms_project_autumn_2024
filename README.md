@@ -1,10 +1,16 @@
 # programming_formalisms_project_autumn_2024
 
+<!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
+
+[![Check code style](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_code_style.yaml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_code_style.yaml)
 [![Check links](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_links.yaml)
+[![Check markdown](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_markdown.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_markdown.yaml)
 [![Check package](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_package.yaml)
 [![Check spelling](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/check_spelling.yaml)
 [![Measure Codecov](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024/actions/workflows/measure_code_coverage.yml)
-[![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024/graph/badge.svg?token=wt5H4NzAZv)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024)
+[![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024/graph/badge.svg?token=KbSwhVmhn6)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_autumn_2024)
+
+<!-- markdownlint-enable MD013 -->
 
 Learners' project of the Programming Formalisms course of autumn 2024.
 
@@ -12,7 +18,7 @@ Learners' project of the Programming Formalisms course of autumn 2024.
 
 To simulate bacterial movement in 2D space.
 
-One way to model bacterial movement is 
+One way to model bacterial movement is
 the run and tumble model,
 where 'run' is going straight in a direction,
 and 'tumble' is picking a random direction.
@@ -21,9 +27,7 @@ finds more and more nutrients (e.g. dissolved
 sugars), and lasts shorter
 when finding less and less nutrients.
 
-![](run_and_tumble.jpg)
-
-> Image from [coursehero](https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/)
+![Run and tumble, from https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/](run_and_tumble.jpg)
 
 ## Project state
 
@@ -33,15 +37,25 @@ Parameter                |Value
 -------------------------|-----------------------
 Branching setup          |Trunk-based development
 Merge workflow           |Not applicable
-Testing                  |None
-Continuous integration   |None
-Can be used as a package?|No
+Testing                  |Yes
+Continuous integration   |Yes
+Can be used as a package?|Yes
+
+## Team experience
+
+Role  |Name
+------|------------------
+Newbie|.
+Junior|.
+Medior|.
+Senior|.
 
 ## Team roles
 
 Role              |Name
 ------------------|-----------------------
 Product owner     |.
+Issue manager     |.
 Software architect|.
 Data manager      |.
 Lead developer    |.
@@ -58,8 +72,11 @@ run_experiment("parameters.csv", "results.csv")
 
 ## Internal links
 
- * [design](design/README.md): design documents
- * [learners](learners/README.md): place to keep notes and do exercises on an individual basis
+- [design](design/README.md): design documents
+- [src/learners](src/learners/README.md): place to put code
+- [learners](learners/README.md): place to put non-code
+
+## Continuous integration scripts
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -75,8 +92,12 @@ Filename                                  |Descriptions
 
 ## External links
 
- * [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
+- [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
 
 ## References
 
- * [Wang et al., 2011] Wang, Charles CN, et al. "Simulation of bacterial chemotaxis by the random run and tumble model." 2011 IEEE 11th International Conference on Bioinformatics and Bioengineering. IEEE, 2011.
+- [Wang et al., 2011] Wang, Charles CN, et al.
+  "Simulation of bacterial chemotaxis by the random run and tumble model."
+  2011 IEEE 11th International Conference on Bioinformatics and
+  Bioengineering. IEEE, 2011.
+
