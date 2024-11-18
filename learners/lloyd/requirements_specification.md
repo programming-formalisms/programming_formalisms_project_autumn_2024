@@ -2,7 +2,6 @@
 
 | **Requirement ID** | **Requirement Description**                  | **Acceptance Criteria**                                                                                      | **Test Cases**                                                                                                     |
 |---------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-
 | R1                  | Bacterial Initialization                  | Bacteria must be initialized with random positions, orientations, and parameters such as speed or sensing radius. | - Confirm that each bacterium is assigned unique initial positions and orientations.                             |
 | R2                  | Environment Initialization                  | The simulation must initialize a 2D space with user-defined dimensions and optional gradients or features.    | - Verify the 2D space initializes correctly with all defined properties (e.g., size, chemical gradient, obstacles). |
 | R3                  | Random Movement                           | Bacteria must perform random motion by default (e.g., run-and-tumble dynamics).                              | - Verify that bacteria move randomly within the field.                                                           |
