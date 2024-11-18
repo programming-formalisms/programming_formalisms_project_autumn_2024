@@ -44,3 +44,4 @@ wordlist
 yml
 src
 coursehero
+Medior
