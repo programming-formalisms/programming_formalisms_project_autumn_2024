@@ -4,9 +4,9 @@ def is_even(x):
     """
     if not isinstance(x, int):
         raise TypeError("the x must be an integer!")
-    if x == 2:
+    if x % 2 == 0:
         return True
-    if x == 0: 
+    else:
         return False
 
 assert is_even.__doc__
