@@ -4,3 +4,5 @@ def is_probability(x):
 
 assert is_probability.__doc__
 assert is_probability(0.5) == True
+assert is_probability(1.5) == False
+assert is_probability('iamstring')
