@@ -1,11 +1,11 @@
 | Requirement ID | Requirement Description | Acceptance Criteria | Test Cases | Risk type | Risk | Risk Probability | Risk severity | Risk value
 |----------------|-------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|------------|
 | R1 | Simulate Bacteria and Bacteria movement | 
-| R1.1 | 2D space & time         |Must have a plane with coordinates and measure of time| Be able to able to get coordinates for a point| Business | Can't initiate the simulation| 5 | 5 | 25|
-| R1.2 | Bacterial Initialization  | Bacteria must be initialized with random positions, orientations, and parameters such as speed or sensing radius. | - Confirm that each bacterium is assigned unique initial positions and orientations.| Business | No bacteria to run simulations on| 5 | 5 | 25|
-|R1.3 | Nutrient gradient       |Nutrient value that depends on position | Output nutrient gradient | Business | No real data without the nutrinent gradient | 5 | 4 | 20 |
-|R1.4 | Bacteria run  |Bacteria moves in single direction with constant speed. | Check the position output.| Business | Withouot running the bactiria can't follow the nutirnent gradient| 5 | 4 | 20|
-|R1.5 | Bacteria tumble         |Bacteria moves in random direction. Randomly changes direction. | Check the position output and verify that it's random. | Business | Without changing direction the bacteria can't follow the nutrient gradient | 5 | 4 | 20 |
+| R1.1 | 2D space & time         |Must have a plane with coordinates and measure of time| Be able to able to get coordinates for a point|
+| R1.2 | Bacterial Initialization  | Bacteria must be initialized with random positions, orientations, and parameters such as speed or sensing radius. | - Confirm that each bacterium is assigned unique initial positions and orientations. |
+|R1.3 | Nutrient gradient       |Nutrient value that depends on position | Output nutrient gradient |
+|R1.4 | Bacteria run  |Bacteria moves in single direction with constant speed. | Check the position output.|
+|R1.5 | Bacteria tumble         |Bacteria moves in random direction. Randomly changes direction. | Check the position output and verify that it's random.|
 |R1.6 | Bacteria must sense nutrients | Bacteria continue running along nutrient gradient.|Compare different layouts of nutrients
 |R1.7 | End condition | Program stops in organized manner and generates output. | Verify the output. Check that everything is cleaned up. 
 | R1.7.1 | Run length | Gives run-length depending on nutrient intake | Confirm accurate run-length
@@ -21,7 +21,7 @@
 |R3 | Units  | Allow the user to pick units | Check that units are correctly converted. 
 |R4| Concentration constraints | Warn the user of too high Nutrient values. | Check that warnings are raised.
 | R5  | Pause and Resume Simulation  | Allow the simulation to be paused and resumed without restarting. | - Verify that pausing stops updates and resuming continues from the paused state.  |
-| R6 | Stop Simulation  | Enable stopping the simulation via user interaction.  | - Test that the simulation terminates cleanly when stopped. | Technical |                                                       |
+| R6 | Stop Simulation  | Enable stopping the simulation via user interaction.  | - Test that the simulation terminates cleanly when stopped.                                                      |
 | R7 | Restart Simulation  | Allow restarting the simulation without closing the interface.  | - Confirm that restarting initializes the field and bacteria correctly while keeping the interface open. |
 | R8 | Real-Time User Interaction  | Allow users to interact with the simulation by placing bacteria, obstacles, or gradients during runtime.       | - Confirm that user interactions immediately reflect in the simulation without crashing.|
 | R9                | Data Logging                              | Log data on bacterial positions, orientations, and interactions for analysis.                                | - Verify that logs are created and updated correctly with relevant simulation data.                               |

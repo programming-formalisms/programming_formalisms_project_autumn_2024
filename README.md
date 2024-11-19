@@ -46,19 +46,20 @@ Can be used as a package?|Yes
 Role  |Name
 ------|------------------
 Newbie|.
-Junior|.
+Junior|.Gabriele, Gustav, Lloyd, Pâmella, Anneli
 Medior|.
 Senior|.
 
 ## Team roles
 
-Role              |Name
-------------------|-----------------------
-Product owner     |.
-Issue manager     |.
-Software architect|.
-Data manager      |.
-Lead developer    |.
+Role                 |Name
+---------------------|-----------------------
+Product owner        |.
+Requirements engineer|.
+Issue manager        | Pâmella
+Software architect   |.
+Data manager         |.
+Lead developer       |.
 
 ## Usage
 
@@ -101,3 +102,4 @@ Filename                                  |Descriptions
   2011 IEEE 11th International Conference on Bioinformatics and
   Bioengineering. IEEE, 2011.
 
+something
