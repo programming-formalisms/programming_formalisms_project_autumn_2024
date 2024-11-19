@@ -11,11 +11,10 @@ def is_zero(x):
     elif x != 0:
         return False
 
-def is_even(x):
+
 
 assert is_zero.__doc__
 assert is_zero(0) == True
-print(is_zero(0))
 
 # must raise an exception if the input type is not an integer
 has_thrown = False

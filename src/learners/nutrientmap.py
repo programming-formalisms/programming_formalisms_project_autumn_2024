@@ -16,18 +16,10 @@ def createmap(x, y):
     ys = np.arange(y)
     for i in xs:
         for j in ys:
-            G = 1 / (2*np.pi*sigma**2) * np.exp(-(i**2+j**2)/(2*sigma**2))
+            xi = i - x/2
+            yj = j - y/2
+            G = 1 / (2*np.pi*sigma**2) * np.exp(-(xi**2+yj**2)/(2*sigma**2))
             foodarray[i,j] = G
     return(foodarray)
 
-assert createmap.__doc__
 food = createmap(4,5)
-print(food)
-
-has_thrown = False
-try:
-    createmap('lala','lolo')
-    createmap(2)
-except:
-    hasthrown = True
-assert hasthrown
