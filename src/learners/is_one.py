@@ -16,3 +16,5 @@ assert is_one.__doc__
 assert is_one(1) == True
 assert is_one(2) == False
 
+exceptionmaker = False
+try assert is_one(1.0)
