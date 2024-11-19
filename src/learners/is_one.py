@@ -6,7 +6,10 @@ def is_one(x):
     Returns False if x is not 1
     Raise an exception when the input is not an integer
     """
-    return True
+    if x == 1:
+        return True
+    else:
+        return False
 
 
 assert is_one.__doc__
