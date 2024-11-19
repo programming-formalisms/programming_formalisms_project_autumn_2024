@@ -2,6 +2,7 @@
 import unittest
 
 from src.bacsim.richel_utils import is_zero
+from src.bacsim.richel_utils import isprime
 
 class TestRichelUtils(unittest.TestCase):
 
@@ -21,3 +22,9 @@ class TestRichelUtils(unittest.TestCase):
         """The function 'is_zero' raises an exception upon non-ints."""
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
+
+    def test_isprime(self):
+        """The function 'isprime' is correct."""
+        self.assertTrue(isprime(7))
+        self.assertFalse(isprime(8))
+        self.assertFalse(isprime(-1))
