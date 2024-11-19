@@ -8,3 +8,4 @@ def is_odd(x):
 
 assert is_odd.__doc__
 assert is_odd(1)
+assert is_odd('one')
