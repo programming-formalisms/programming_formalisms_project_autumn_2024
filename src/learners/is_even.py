@@ -1,4 +1,4 @@
-def is_one(x):
+def is_even(x):
     """
     Determine if the input 'x' is one.
 
@@ -8,7 +8,7 @@ def is_one(x):
     """
     if not isinstance(x, int):
         raise TypeError("'x' must be of type int")    
-    if x == 1:
+    if x % 2 == 0:
         return True
     else:
         return False
@@ -16,7 +16,8 @@ def is_one(x):
 
 assert is_even.__doc__
 assert is_even(2) == True
-#assert is_even(3) == False
+assert not is_even(1)== False
+#assert is_even(3) 
 
 
 has_thrown = False
