@@ -9,7 +9,6 @@ def create_test_bacterium():
     y = random.uniform(-1, 1)
     return {"x": x, "y": y}
 
-
 assert create_test_bacterium.__doc__
 
 def is_bacterium(bacterium):
