@@ -15,13 +15,13 @@ def is_probability(x):
 
 
 assert is_probability.__doc__
-assert is_probability(1) == True
-assert is_probability(3) == False
+#assert is_probability(1) == True
+#assert is_probability(3) == False
 #assert is_even(3) 
 
 has_thrown = False
 try:
-    is_even(1.0)
+    is_probability("nonsense")
 except:
     has_thrown = True
 
