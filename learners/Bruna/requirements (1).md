@@ -1,6 +1,6 @@
 | Requirement ID | Requirement Description | Acceptance Criteria | Test Cases | Risk type | Risk | Risk Probability | Risk severity | Risk value
 |----------------|-------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|------------|
-|R1| Simulate Bacteria and Bacteria movement | | | B | Not having a program. |  | 5 | 
+|R1| Simulate Bacteria and Bacteria movement | 
 |R1.1              | 2D space & time         |Must have a plane with coordinates and measure of time| Be able to able to get coordinates for a point|
 |R1.2              | Bacteria initialization |Bacteria must occupy space| Output bacteria position |
 |R1.3              | Nutrient gradient       |Nutrient value that depends on position | Output nutrient gradient |
