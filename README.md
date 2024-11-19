@@ -46,7 +46,7 @@ Can be used as a package?|Yes
 Role  |Name
 ------|------------------
 Newbie|.
-Junior|.Gabriele
+Junior|.Gabriele, Gustav
 Medior|.
 Senior|.
 
