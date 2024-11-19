@@ -9,8 +9,7 @@
 |R1.6 | Bacteria must sense nutrients | Bacteria continue running along nutrient gradient.|Compare different layouts of nutrients
 |R1.7 | End condition | Program stops in organized manner and generates output. | Verify the output. Check that everything is cleaned up. 
 | R1.7.1 | Run length | Gives run-length depending on nutrient intake | Confirm accurate run-length
-| R1.8                  | Environment Initialization                  | The simulation must initialize a 2D space with user-defined 
-dimensions and optional gradients or features.    | - Verify the 2D space initializes correctly with all defined properties (e.g., size, chemical gradient, obstacles). |
+| R1.8                  | Environment Initialization                  | The simulation must initialize a 2D space with user-defined dimensions and optional gradients or features. | - Verify the 2D space initializes correctly with all defined properties (e.g., size chemical gradient, obstacles). |
 |R1.8.1 | Specify position of nutrients | Gives a map for the nutrient position in x- and y-coordinates | Verify nutrient map
 | R1.9 | Chemotaxis Simulation  | Bacteria should sense and move toward higher concentrations of a chemical gradient. | - Implement gradient sensing. <br /> - Confirm bacteria move toward higher concentrations of the chemical.              |
 | R1.10                  | Interaction Between Bacteria              | Bacteria must interact through collisions or quorum sensing mechanisms if specified in settings.              | - Verify that bacteria respond to each other's presence (e.g., avoid overlapping or aggregate in groups).         |
