@@ -56,7 +56,7 @@ Role                 |Name
 ---------------------|-----------------------
 Product owner        |.
 Requirements engineer|.
-Issue manager        |.Pâmella
+Issue manager        | Pâmella
 Software architect   |.
 Data manager         |.
 Lead developer       |.
