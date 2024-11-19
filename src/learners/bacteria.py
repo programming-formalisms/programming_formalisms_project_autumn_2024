@@ -2,7 +2,7 @@ def create_test_bacteria():
     """Function that creates bacteria"""
     pass
 
-def is_bacteria(bacteria)
+def is_bacteria(bacteria):
     """Funcction to determine if something is bacteria"""
     pass
 
