@@ -1,14 +1,14 @@
-def is_one(x):
+def is_even(x):
     """
-    Determine if the input 'x' is one.
+    Determine if the input 'x' is even.
 
-    Returns True if x is 1
-    Returns False if x is not 1
+    Returns True if x is even
+    Returns False if x is not even
     Raise an exception when the input is not an integer
     """
     if not isinstance(x, int):
         raise TypeError("'x' must be of type int")    
-    if x == 1:
+    if x % 2 == 0:
         return True
     else:
         return False
@@ -16,12 +16,12 @@ def is_one(x):
 
 assert is_even.__doc__
 assert is_even(2) == True
-#assert is_even(3) == False
-
+assert is_even(1) == False
+#assert is_even(3) 
 
 has_thrown = False
 try:
-    is_one(1.0)
+    is_even(1.0)
 except:
     has_thrown = True
 
