@@ -46,7 +46,7 @@ Can be used as a package?|Yes
 Role  |Name
 ------|------------------
 Newbie|.
-Junior|.Gabriele, Gustav, Lloyd, Pâmella, Anneli
+Junior|.Gabriele, Gustav, Lloyd, Pâmella, Anneli, Emilia
 Medior|.
 Senior|.
 
