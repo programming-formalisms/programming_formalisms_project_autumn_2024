@@ -15,9 +15,9 @@
 | R1.10                  | Interaction Between Bacteria              | Bacteria must interact through collisions or quorum sensing mechanisms if specified in settings.              | - Verify that bacteria respond to each other's presence (e.g., avoid overlapping or aggregate in groups).       | T|no bacteria interaction: unphysical |5|4|20|
 | R1.12 | Boundary Conditions  | Define boundary behavior for bacteria, such as reflecting, wrapping, or stopping at edges.  | - Confirm bacteria behave correctly at boundaries based on the specified condition. | T| bacteria would steadily be lost| 5| 4|20|
 | R1.13 | Simulation Step                           | The simulation must progress in discrete steps, updating bacterial positions and orientations.                | - Verify that bacterial positions and orientations update correctly with each simulation step.                    | T|program does not run|5|5|25|
-|R2 |Visualization | Generate a movie of the simulation. | Verify that the movie matches the simulation. | B| Visuals not working| 5| 3|15|
-|R2.1|Visual Display | The program should display a field of bacterias and nutrients | Verify that the display works              
-| R2.2 | Path Visualization                          | Trace and display the paths taken by bacteria over time.                                                     | - Verify that paths are visualized correctly without overwhelming the display.                                       |
+|R2 |Visualization | Generate a movie of the simulation. | Verify that the movie matches the simulation. | B| Visuals not working| 5| 2|15|
+|R2.1|Visual Display | The program should display a field of bacterias and nutrients | Verify that the display works    |B |5 |          
+| R2.2 | Path Visualization                          | Trace and display the paths taken by bacteria over time.                                                     | - Verify that paths are visualized correctly without overwhelming the display.                                       |T|5
 |R3 | Units  | Allow the user to pick units | Check that units are correctly converted. 
 |R4| Concentration constraints | Warn the user of too high Nutrient values. | Check that warnings are raised.
 | R5  | Pause and Resume Simulation  | Allow the simulation to be paused and resumed without restarting. | - Verify that pausing stops updates and resuming continues from the paused state.  |
