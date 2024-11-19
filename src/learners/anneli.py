@@ -24,3 +24,5 @@ try:
 except:
     has_thrown = True
 assert has_thrown
+
+#test
