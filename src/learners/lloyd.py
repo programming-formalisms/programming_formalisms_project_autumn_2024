@@ -14,13 +14,21 @@ def is_even(x):
         raise TypeError("Input must be an integer.")
     return x % 2 == 0
 
-assert is_even.__doc__
-assert is_even(2) == True
-assert not is_even(3)
+def is_odd(x):
+    """
+    Determines the input number whether it is odd
+    """
+    if not isinstance(x, int):
+        raise TypeError("Input must be an integer.")
+    return not is_even(x)
+
+assert is_odd.__doc__
+assert is_odd(3) == True
+assert not is_odd(2)
 
 has_thrown = False
 try: 
-    is_even("nonsense")
+    is_odd("nonsense")
 except TypeError:
     has_thrown = True
 assert has_thrown
