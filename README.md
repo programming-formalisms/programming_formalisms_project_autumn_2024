@@ -46,7 +46,7 @@ Can be used as a package?|Yes
 Role  |Name
 ------|------------------
 Newbie|.
-Junior|.
+Junior|.Gabriele, Gustav, Lloyd, Pâmella, Anneli, Emilia
 Medior|.
 Senior|.
 
@@ -56,7 +56,7 @@ Role                 |Name
 ---------------------|-----------------------
 Product owner        |.
 Requirements engineer|.
-Issue manager        |.
+Issue manager        | Pâmella
 Software architect   |.
 Data manager         |.
 Lead developer       |.
