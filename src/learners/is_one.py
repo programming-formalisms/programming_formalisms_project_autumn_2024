@@ -11,4 +11,5 @@ def is_one(x):
 
 assert is_one.__doc__
 assert is_one(1) == True
+assert is_one(2) == False
 
