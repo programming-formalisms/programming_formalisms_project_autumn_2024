@@ -13,8 +13,11 @@ def create_test_bacterium():
 assert create_test_bacterium.__doc__
 
 def is_bacterium(bacterium):
-    '''Check whether the bacteria has a coordinate'''
-    return "x" in bacterium and "y" in bacterium
+    '''Check whether the bacterium has valid x and y coordinates as floats.'''
+    return (
+        "x" in bacterium and isinstance(bacterium["x"], float) and
+        "y" in bacterium and isinstance(bacterium["y"], float)
+    )
 
 assert is_bacterium.__doc__
 
