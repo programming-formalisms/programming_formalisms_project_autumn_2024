@@ -3,7 +3,6 @@ import unittest
 
 from src.bacsim.experiment import run_experiment
 
-
 class TestExperiment(unittest.TestCase):
 
     """Class to test the code in src.bacsim.experiment."""
