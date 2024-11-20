@@ -9,5 +9,3 @@
 |R06| Pause and resume simulation (optional)| Should be able to pause and resume simulation at any point | Implement a user interface which could pause/resume the simulation when needed. Test that simulation resumes at the point at which it was stopped.
 |R07| Generate log files of simulation run | Record positions and directions of the bacteria, nutrient levels for all bacteria at every (second or any other time measurement) | Validate log files to ensure they capture position, direction, and nutrient data for all bacteria at each time step.
 |R08| Generate result files for further analysis (optional) |Output results in a format suitable for downstream analysis (e.g., CSV or JSON) | Confirm result files include final positions, directions, and nutrient consumption for all bacteria.
-|R09| Have a stopping criteria, when does simulationstop  |
-|R10| Model in the fact that bacteria would eat the nutrients |
