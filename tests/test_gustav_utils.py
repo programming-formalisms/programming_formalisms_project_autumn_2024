@@ -2,6 +2,7 @@
 import unittest
 
 from src.bacsim.gustav_utils import is_zero
+from src.bacsim.gustav_utils import isprime
 
 class TestSvenUtils(unittest.TestCase):
 
@@ -21,3 +22,8 @@ class TestSvenUtils(unittest.TestCase):
         """The function 'is_zero' raises an exception upon non-ints."""
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
+
+    def test_gustav_utils_is_prime(self):
+        """Tests the funtion is prime in gustav_utils"""
+        self.assertTrue(isprime(7))
+        self.assertFalse(isprime(8))
