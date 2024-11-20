@@ -27,4 +27,4 @@ class TestRichelUtils(unittest.TestCase):
         """The function 'isprime' is correct."""
         self.assertTrue(isprime(7))
         self.assertFalse(isprime(8))
-        self.assertFalse(isprime(-1))
+        self.assertRaises(ValueError, isprime, -1)
