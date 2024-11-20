@@ -8,3 +8,4 @@ def is_number(x):
 assert is_number.__doc__
 assert is_number(1.5) == True
 assert is_number("string") == False
+assert is_number(1) == True
