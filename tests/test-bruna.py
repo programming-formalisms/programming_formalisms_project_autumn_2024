@@ -17,7 +17,8 @@ for _ in range(num_particles):
         y = random.uniform(*y_range)
         coordinates.append((x, y))
         
-print (coordinates)
+#print (coordinates)
 
 assert start_coordinates.__doc__
 
+assert start_coordinates
