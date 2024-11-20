@@ -1,8 +1,7 @@
-def is_number(x):
-    """Function that returns True if input is a number and False if it is not a number.
-    Raises exception if input is not a number."""
-    if  isinstance(x, float):
-        return True
-    elif isinstance(x, int):
+def is_zero(number):
+    """Testing if the number is zero."""
+    if not isinstance(number, int):
+        raise TypeError("'number' must be of type int.")
+    if number == 0:
         return True
     return False
