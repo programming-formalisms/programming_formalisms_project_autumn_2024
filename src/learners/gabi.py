@@ -51,7 +51,6 @@ except TypeError:
     has_thrown = True
 assert has_thrown
 
-# %% Exc 3
 
 
 
