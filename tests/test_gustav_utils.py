@@ -3,6 +3,7 @@ import unittest
 
 from src.bacsim.gustav_utils import is_zero
 from src.bacsim.gustav_utils import isprime
+from src.learners.is_prime import is_prime
 
 class TestSvenUtils(unittest.TestCase):
 
@@ -27,3 +28,10 @@ class TestSvenUtils(unittest.TestCase):
         """Tests the funtion is prime in gustav_utils"""
         self.assertTrue(isprime(7))
         self.assertFalse(isprime(8))
+
+       
+    def test_prime_numbers(self):
+        self.assertTrue(is_prime(2))
+        self.assertFalse(is_prime(4))
+        self.assertTrue(is_prime(13))
+        self.assertTrue(is_prime(101))
