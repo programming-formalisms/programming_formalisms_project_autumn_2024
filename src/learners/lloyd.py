@@ -48,4 +48,5 @@ def is_probability(x):
 assert is_odd.__doc__
 assert is_odd(3) == True
 assert not is_odd(2)
+assert is_odd('one')
 
