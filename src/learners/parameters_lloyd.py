@@ -1,4 +1,18 @@
 class Parameters:
+    """Test documentation.
+
+        Args:
+            input_n_bacteria (_type_): _description_
+            input_n_timesteps (_type_): _description_
+            input_gradient_type (_type_): _description_
+            input_bacteria_initialization (_type_): _description_
+
+        Raises:
+            TypeError: _description_
+            TypeError: _description_
+            ValueError: _description_
+            ValueError: _description_
+        """
     def __init__(self, input_n_bacteria, input_n_timesteps, input_gradient_type, input_bacteria_initialization):
         
         valid_gradient_type = ['uniform']
@@ -28,7 +42,3 @@ class Parameters:
     
     def __str__(self):
         return f"[{self.n_bacteria}, {self.n_timesteps}, {self.gradient_type}, {self.bacteria_initialization}]"
-    
-param = Parameters(10, 4, 'uniform', 'uniform')
-print(param)
-print(type(param))
