@@ -9,7 +9,10 @@ class Parameters:
     def __str__(self):
         return "(" + str(self.n_bacteria) +", " + str(self.n_timesteps) +", " + str( self.gradient_type) + ", " + str( self.bacteria_initialization)+ ")"
 
-a = Parameters(42,1000,"uniform", "uniform")
+def set_parameters(n_bacteria, n_timesteps, gradient_type, bacteria_initialization ):
+    a = Parameters(n_bacteria, n_timesteps, gradient_type, bacteria_initialization)
+    return a
 
-print(a)
-print(type(a))
+param = set_parameters(42,1000, "uniform", "uniform")
+print(param)
+print(type(param))
