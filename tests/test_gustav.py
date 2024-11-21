@@ -1,14 +1,13 @@
-"""
 import unittest
 
 
 def is_prime(x):
-    ""
+    """
     Determines the input number whether it is prime
     True for prime
     False for not prime
     Raise error for non-integer
-    ""
+    """
     if not isinstance(x, int) or x < 1:
         raise TypeError("Input must be a natural number")
     if x == 1:
@@ -29,6 +28,3 @@ class TestIsPrime(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-"""
