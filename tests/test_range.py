@@ -10,4 +10,5 @@ class TestRange(unittest.TestCase):
         x = Range(3, 10)
         self.assertEquals(x.get_lowest(), 3)
         self.assertEquals(x.get_highest(), 10)
-        self.assertRaises(ValueError, Range(100, 10)) # Must raise an exception
+        with self.assertRaises(ValueError): # Must raise an exception
+            Range(100, 10)
