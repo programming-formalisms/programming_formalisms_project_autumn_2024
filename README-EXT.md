@@ -44,7 +44,7 @@ Pâmella
 
 ## License
 
-[a relative link](license.md)
+[a relative link](LICENSE)
 
 ## Acknowledgments
 * [Github course page](https://github.com/programming-formalisms/programming_formalisms_project_autumn_2024)
