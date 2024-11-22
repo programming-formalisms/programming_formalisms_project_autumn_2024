@@ -1,6 +1,5 @@
 from logging import setLogRecordFactory
 
-
 def is_zero(x):
     """Determines if input is zero.
     Will return True if input is zero.
@@ -14,8 +13,6 @@ def is_zero(x):
     elif x != 0:
         return False
 
-
-
 assert is_zero.__doc__
 assert is_zero(0) == True
 
@@ -27,10 +24,9 @@ except:
     has_thrown = True
 assert has_thrown
 
-#test
 
 
-
+# Class test
 class Coordinate:
     def __init__(self, any_x, any_y):
       self.x = any_x
@@ -50,7 +46,7 @@ class Parameters:
     def __repr__(self):
         return "Parameters"
     def __str__(self):
-        return "(" + str(self.n) + ", " + str(self.n_time) + ", " + str(self.type) +  ", " + str(self.init) + ")"
+        return "(" + str(self.n_bacteria) + ", " + str(self.n_timesteps) + ", " + str(self.gradient_type) +  ", " + str(self.bacteria_initialization) + ")"
 
 
 def get_parameter():
@@ -63,3 +59,22 @@ print(type(a))
 
 
 
+
+
+
+class Range:
+    def __init__(self, any_lowest_number, any_highest_number):
+        assert any_lowest_number <= any_highest_number
+        assert type(any_lowest_number) == int and type(any_highest_number) == int
+        self.lowest_number = any_lowest_number
+        self.highest_number = any_highest_number
+    def get_lowest(self):
+        return self.lowest_number
+    def get_highest(self):
+        return self.highest_number
+
+x = Range(3, 10)
+assert x.get_lowest() == 3
+assert x.get_highest() == 10
+Range(100, 10) # Must raise an exception
+Range('string', 'string')
