@@ -13,3 +13,9 @@ from bacsim.experiment import (
 
 if __name__ == "__main__":
     run_experiment("parameters.csv", "results.csv")
+
+do_profile = True
+
+if do_profile:
+    import cProfile
+    cProfile.run('run_experiment("parameters.csv", "results.csv")')
