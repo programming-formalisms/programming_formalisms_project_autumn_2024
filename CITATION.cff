@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Testsson
+    given-names: Test
+    orcid: https://orcid.org/1234-5678-9101-1121
+title: "Bacterial simulation"
+version: 1.0.3
+identifiers:
+  - type: doi
+    value: to be continued..
+date-released: 2024-11-22

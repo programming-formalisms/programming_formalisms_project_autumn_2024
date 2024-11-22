@@ -2,11 +2,11 @@
 
 To simulate bacterial movement in 2D space.
 
-## Description
-The package provide a bacterial simulation.
+## About
+Learners' project of the Programming Formalisms course of autumn 2024.
+One way to model bacterial movement is the run and tumble model, where 'run' is going straight in a direction, and 'tumble' is picking a random direction. The 'run' lasts longer when a bacterium finds more and more nutrients (e.g. dissolved sugars), and lasts shorter when finding less and less nutrients. This model simulates bacteria doing the run and tumble to collect nutrient. Data will be vizialised regarding the bacteria lifespan.
 
 ### Dependencies
-
 
 Works for Windows 11, Linux and Mac
 
