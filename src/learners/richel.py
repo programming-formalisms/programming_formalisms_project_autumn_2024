@@ -24,8 +24,3 @@ class Range:
         return self._lowest
     def get_highest(self):
         return self._highest
-
-x = Range(3, 10)
-assert x.get_lowest() == 3
-assert x.get_highest() == 10
-Range(100, 10) # Must raise an exception
