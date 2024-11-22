@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 packages = ["src/bacsim"]
 
 [project]
-name = "bacsim"
+name = "bacsim_Gustav"
 version = "1.0.1"
 authors = [
   { name="Richèl Bilderbeek", email="rjcbilderbeek@gmail.com" },
