@@ -29,10 +29,12 @@ Run the code with the following commands:
 ```
 python main.py
 ```
+## Citation 
+[Citation](./CITATION.cff)
 
 ## Authors
 
-Contributors names and contact info
+Contributors names
 
 Gustav
 Fabian
