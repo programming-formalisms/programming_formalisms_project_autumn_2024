@@ -28,3 +28,4 @@ class TestRichelUtils(unittest.TestCase):
         self.assertTrue(isprime(7))
         self.assertFalse(isprime(8))
         self.assertRaises(ValueError, isprime, -1)
+        self.assertRaises(TypeError, isprime, {1,2})

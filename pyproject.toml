@@ -6,10 +6,10 @@ build-backend = "hatchling.build"
 packages = ["src/bacsim"]
 
 [project]
-name = "bacsim"
+name = "bacsim_llv"
 version = "1.0.1"
 authors = [
-  { name="Richèl Bilderbeek", email="rjcbilderbeek@gmail.com" },
+  { name="Lloyd Villanueva", email="llvillanueva@gmail.com" },
 ]
 description = "The Programming Formalisms course learners project"
 readme = "README.md"
